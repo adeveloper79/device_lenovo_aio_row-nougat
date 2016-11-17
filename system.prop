@@ -1,6 +1,6 @@
 #
 #
-# system.prop for Jiayu S3
+# system.prop for Lenovo A7000-a
 #
 
 rild.libpath=/system/lib64/mtk-ril.so
@@ -59,7 +59,7 @@ ro.kernel.zio=38,108,105,16
 # Disable dirty region for Mali
 debug.hwui.render_dirty_regions=true
 
-ro.sf.lcd_density=480
+ro.sf.lcd_density=320
 
 # button jack mode & switch
 persist.sys.button_jack_profile=volume
@@ -67,7 +67,7 @@ persist.sys.button_jack_switch=0
 
 persist.tone_relative_volume=100
 ro.mediatek.chip_ver=S01
-ro.mediatek.version.release=ALPS.N
+ro.mediatek.version.release=alps-mp-m0.mp1-V2.39_lenovo6752.65.m_P10
 ro.mediatek.platform=MT6752
 ro.telephony.sim.count=2
 persist.radio.default.sim=0
@@ -95,11 +95,11 @@ fmradio.driver.enable=1
 ril.first.md=1
 ril.flightmode.poweroffMD=1
 ril.telephony.mode=0
-mediatek.wlan.chip=MT6630
-mediatek.wlan.module.postfix=_mt6630
+mediatek.wlan.chip=CONSYS_MT6752
+mediatek.wlan.module.postfix=_consys_mt6752
 ril.read.imsi=1
 ril.radiooff.poweroffMD=0
-ro.mediatek.version.branch=L0.MP6
+ro.mediatek.version.branch=alps-mp-m0.mp1
 ro.mediatek.version.sdk=4
 ro.mtk_gemini_support=1
 ro.mtk_lossless_bt_audio=1

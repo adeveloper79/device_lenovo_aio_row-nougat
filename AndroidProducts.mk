@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_aio_row.mk
+    $(LOCAL_DIR)/full_s3plus_n560a.mk
